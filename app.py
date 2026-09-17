@@ -68,7 +68,7 @@ interface = gr.Interface(fn=filter_county_town_village,
                                  ],
                          outputs="dataframe",
                          title="找出章魚里",
-                         description=f"輸入你想篩選的縣市、鄉鎮市區、村鄰里:  (柯吳配, 賴蕭配, 侯趟配) = ({ko_wu:.6f}, {lai_hsiao:6f}, {hou_chao:6f})"
+                         description=f"輸入你想篩選的縣市、鄉鎮市區、村鄰里:  (柯吳配, 賴蕭配, 侯趟配) = ({ko_wu:.6f}, {lai_hsiao:.6f}, {hou_chao:.6f})"
 )
 interface.launch()
 
